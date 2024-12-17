@@ -52,6 +52,7 @@ git clone https://github.com/yourusername/express-intro.git
 cd express-intro
 
 npm init -y
+npm install dotenv
 npm install express
 ```
 
