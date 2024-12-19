@@ -31,7 +31,7 @@ Each section includes simple, easy-to-understand examples for hands-on learning.
 
 To follow along, you need:
 
-- **Node.js** (v14+ recommended)
+- **Node.js** (v18+ recommended)
 - **npm** (Node Package Manager)
 
 You can check your versions using:
@@ -48,12 +48,14 @@ npm -v
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/yourusername/express-intro.git
+git clone https://github.com/RobinGoerlach/express-intro.git
 cd express-intro
 
 npm init -y
+npm install nodemon
 npm install dotenv
 npm install express
+npm install pg sequelize
 ```
 
 Run the server:
